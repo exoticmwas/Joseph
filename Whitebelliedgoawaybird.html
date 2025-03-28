@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White-bellied Go-away Bird</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #b39513;
+            height: 200px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+        }
+        .nav {
+            display: flex;
+            background-color: #0b5f00;
+            padding: 10px;
+            justify-content: space-around;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .nav a:hover {
+            background-color: #575757;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 120px;
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .image {
+            flex: 1;
+            max-width: 490px;
+            height: auto;
+            background-color: lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: black;
+            margin-right: 20px;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .article {
+            flex: 2;
+            border: 1px solid #ddd;
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Wildlife Sanctuary</h1>
+    </div>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Get Involved</a>
+        <div class="dropdown">
+            <a href="#">Animals &#9662;</a>
+            <div class="dropdown-content">
+                <a href="cheetah.html">Cheetah</a>
+                <a href="elephant.html">Elephant</a>
+                <a href="desertWarthog.html">Warthog</a>
+                <a href="Whitebelliedgoawaybird.html">White-bellied Go-away Bird</a>
+                <a href="blackbackedjackal.html">Jackal</a>
+                <a href="hyena.html">Hyena</a>
+                <a href="dikdik.html">Dikdik</a>
+                <a href="batearedfox.html">Bat-eared Fox</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+            <img src="Whitebelliedgoawaybird.jpg" alt="White-bellied Go-away Bird">
+        </div>
+        <div class="article">
+            <h3>White-bellied Go-away Bird</h3>
+            <p>
+                The white-bellied go-away bird has a call that sounds like ‘go-way’. It has grey plumage, a white belly, and a huge crest on the top of its head. 
+                It also has white marks on its tail, which are visible when the bird is in flight.
+            </p>
+            <p>
+                White-bellied go-away birds live in the arid savannahs and woodlands of Kenya, Tanzania, Uganda, Sudan, South Sudan, Somalia, and Ethiopia. 
+                The IUCN lists this bird as least concern, with no major threats to its survival.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Joseph Mwangi 24/06840</p>
+    </div>
+</body>
+</html>

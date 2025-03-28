@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elephant - Wildlife Sanctuary</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #b39513;
+            height: 200px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            color: white;
+            font-weight: bold;
+        }
+        .nav {
+            display: flex;
+            background-color: #0b5f00;
+            padding: 10px;
+            justify-content: space-around;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        .nav a:hover {
+            background-color: #575757;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+            align-items: center;
+        }
+        .image {
+            flex: 1;
+            max-width: 500px;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
+        .article {
+            flex: 2;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-left: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Wildlife Sanctuary
+    </div>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Get Involved</a>
+        <div class="dropdown">
+            <a href="#">Animals &#9662;</a>
+            <div class="dropdown-content">
+                <a href="cheetah.html">Cheetah</a>
+                <a href="elephant.html">Elephant</a>
+                <a href="DesertWarthog.html">Warthog</a>
+                <a href="Whitebelliedgoawaybird.html">White-bellied Go-away Bird</a>
+                <a href="blackbackedjackal.html">Jackal</a>
+                <a href="hyena.html">Hyena</a>
+                <a href="dikdik.html">Dikdik</a>
+                <a href="batearedfox.html">Bat-eared Fox</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="Elephant.jpg" alt="Elephant in the wild">
+        </div>
+        <div class="article">
+            <h3>The African Savannah Elephant</h3>
+            <p>The African savannah elephant is the world's largest land mammal. It inhabits a variety of environments, including open savannahs, deserts, and forests. As these majestic animals roam, they play a crucial role in their ecosystem.</p>
+            <p>Elephants disperse seeds through their dung, aiding in land fertilization. They clear paths through dense vegetation, promoting plant diversity, and use their tusks and feet to access water in dry riverbeds, creating small watering holes for other animals.</p>
+            <p>African savannah elephants are found in 23 countries across Africa, with large populations in Kenya, Botswana, Namibia, Tanzania, South Africa, Zambia, and Zimbabwe.</p>
+            <p>The IUCN classifies them as endangered due to poaching for ivory and habitat loss from expanding human populations. Their numbers continue to decline, making conservation efforts critical.</p>
+            <p>Organizations like IFAW are working to protect African savannah elephants and conserve their remaining habitats through initiatives like <strong>Room to Roam</strong>.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Joseph Mwangi 24/06840</p>
+    </div>
+</body>
+</html>

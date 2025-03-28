@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheetah - Wildlife Sanctuary</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #b39513;
+            height: 200px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            color: white;
+            font-weight: bold;
+        }
+        .nav {
+            display: flex;
+            background-color: #0b5f00;
+            padding: 10px;
+            justify-content: space-around;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        .nav a:hover {
+            background-color: #575757;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+            align-items: center;
+        }
+        .image {
+            flex: 1;
+            max-width: 500px;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
+        .article {
+            flex: 2;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-left: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Wildlife Sanctuary
+    </div>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Get Involved</a>
+        <div class="dropdown">
+            <a href="#">Animals &#9662;</a>
+            <div class="dropdown-content">
+                <a href="cheetah.html">Cheetah</a>
+                <a href="elephant.html">Elephant</a>
+                <a href="DesertWarthog.html">Warthog</a>
+                <a href="Whitebelliedgoawaybird.html">White-bellied Go-away Bird</a>
+                <a href="blackbackedjackal.html">Jackal</a>
+                <a href="hyena.html">Hyena</a>
+                <a href="dikdik.html">Dikdik</a>
+                <a href="batearedfox.html">Bat-eared Fox</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="Cheetah.jpg" alt="Cheetah in the wild">
+        </div>
+        <div class="article">
+            <h3>Cheetah: The Fastest Land Animal</h3>
+            <p>One of the most recognizable animals in Kenya is the cheetah. These spotty cats—each with their own unique patterns—are skilled hunters, in part because of their natural speed and agility. In fact, cheetahs are the fastest mammals on Earth, capable of accelerating from zero to 60 miles per hour in just three seconds.</p>
+            <p>Unlike lions, tigers, jaguars, and leopards, cheetahs cannot roar—they can only purr. These incredible cats inhabit open grasslands across Africa, including countries such as Kenya, Algeria, South Africa, and Niger.</p>
+            <p>The International Union for the Conservation of Nature (IUCN) classifies cheetahs as vulnerable, meaning they are at high risk of extinction in the wild. There are just 6,517 mature cheetahs left in the wild, and their population is decreasing. Cheetahs face habitat loss and often come into conflict with farmers due to their wide-ranging hunting patterns.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Joseph Mwangi 24/06840</p>
+    </div>
+</body>
+</html>
